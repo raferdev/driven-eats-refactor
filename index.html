@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Driven Eats</title>
+  </head>
+  <body>
+    <div class="overlay escondido">
+      <div class="confirmar-pedido">
+        <div class="titulo">Confirme seu pedido</div>
+        <ul>
+          <li class="prato">
+            <div class="nome">Estrombelete Yin Yang</div>
+            <div class="preco">14,90</div>
+          </li>
+          <li class="bebida">
+            <div class="nome">Coquinha gelada</div>
+            <div class="preco">4,90</div>
+          </li>
+          <li class="sobremesa">
+            <div class="nome">Pudim</div>
+            <div class="preco">7,90</div>
+          </li>
+          <li class="total">
+            <div>Total</div>
+            <div class="preco">R$ 27,70</div>
+          </li>
+        </ul>
+        <button class="confirmar">Tudo certo, pode pedir!</button>
+        <button class="cancelar">Cancelar</button>
+      </div>
+    </div>
+
+    <div class="header">
+      <div class="titulo">Driven Eats</div>
+      <div class="subtitulo">Sua comida em 6 minutos</div>
+    </div>
+
+    <div class="menu">
+      <div class="secao">
+        <div class="titulo">Primeiro, seu prato</div>
+        <div class="opcoes prato"></div>
+      </div>
+
+      <div class="secao">
+        <div class="titulo">Agora, sua bebida</div>
+        <div class="opcoes bebida"></div>
+      </div>
+
+      <div class="secao">
+        <div class="titulo">Por fim, sua sobremesa</div>
+        <div class="opcoes sobremesa"></div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <button class="fazer-pedido" disabled>
+        Selecione os 3 itens<br />para fechar o pedido
+      </button>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script type="module" src="/scripts/main-oop.js"></script>
+  </body>
+</html>
